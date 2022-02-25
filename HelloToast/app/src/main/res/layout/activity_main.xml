@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:textStyle="bold"
+    android:textColor="@color/design_default_color_primary"
+    android:background="@color/design_default_color_primary"
+
+    tools:context="sv.edu.udb.hellotoast.MainActivity">
+
+
+    <Button
+        android:id="@+id/button_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_label_toast"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="83dp"
+        android:textColor="@android:color/white"/>
+
+
+    <TextView
+        android:id="@+id/show_count"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="160sp"
+        android:text="@string/count_initial_value"
+        android:background="#FFF043"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <Button
+        android:id="@+id/button_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_label_count"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="191dp"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>
